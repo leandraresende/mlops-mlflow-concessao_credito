@@ -11,7 +11,11 @@ Data: Abril/2026 – o momento
 ================================================
 
 ## Índice
- 
+
+ * [Objetivo do Projeto](#objetivo-do-projeto)
+* [Resultados Principais](#resultados-principais)
+* [Contexto de Negócio](#contexto-de-negócio)
+
 - [Objetivo do Projeto](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#objetivo-do-projeto)
 - [Resultados Principais](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#resultados-principais)
 - [Contexto de Negócio](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#contexto-de-neg%C3%B3cio)
