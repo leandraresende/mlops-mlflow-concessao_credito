@@ -12,19 +12,15 @@ Data: Abril/2026 – o momento
 
 ## Índice
 
- * [Objetivo do Projeto](#objetivo-do-projeto)
-* [Resultados Principais](#resultados-principais)
-* [Contexto de Negócio](#contexto-de-negócio)
-
-- [Objetivo do Projeto](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#objetivo-do-projeto)
-- [Resultados Principais](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#resultados-principais)
-- [Contexto de Negócio](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#contexto-de-neg%C3%B3cio)
-- [Metodologia](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#metodologia)
-- [Análise de Risco](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#an%C3%A1lise-de-risco)
-- [Tecnologias Utilizadas](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#tecnologias-utilizadas)
-- [MLOps com MLflow](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#mlops-com-mlflow)
-- [Visualizações Principais](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#visualiza%C3%A7%C3%B5es-principais)
-- [Principais Insights](https://github.com/leandraresende/mlops-mlflow-concessao_credito/new/main?filename=README.md#principais-insights)
+- [Objetivo do Projeto](#objetivo-do-projeto)
+- [Resultados Principais](#resultados-principais)
+- [Contexto de Negócio](#contexto-de-negócio)
+- [Metodologia](#metodologia)
+- [Análise de Risco](#an%C3%A1lise-de-risco)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [MLOps com MLflow](#mlops-com-mlflow)
+- [Visualizações Principais](#visualiza%C3%A7%C3%B5es-principais)
+- [Principais Insights](#principais-insights)
  
 ---
  
