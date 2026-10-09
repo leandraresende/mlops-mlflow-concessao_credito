@@ -66,6 +66,8 @@ Desenvolveu-se algoritmo de classificação que:
 - Entre 100 clientes preditos como inadimplentes, 36 realmente serão
 - Do total de clientes que cairão em inadimplência, conseguimos identificar 26%
 - Threshold de 0.15 maximiza lucro esperado
+
+![Threshold lucro](images/threshold-lucro_estimado.png)
  
 ### Impacto de Negócio
  
@@ -96,7 +98,7 @@ Desenvolveu-se algoritmo de classificação que:
 - FP (1.491): 4.97% de clientes aprovados mas que se tornaram inadimplentes
 - FN (911): 3.04% rejeitados mas que seriam adimplentes
 - TN (514): Corretamente identificou inadimplentes (1.71%)
- 
+
 ---
  
 ## Contexto de Negócio
@@ -246,18 +248,22 @@ Este projeto demonstra comprometimento com **boas práticas de produção**:
  
 ### Curva ROC
 ![Curva ROC](images/curva-roc.png)
+
 *ROC-AUC de 0.7051 indica modelo moderado-bom na discriminação entre classes*
  
 ### Matriz de Confusão
 ![Matriz de confusão](images/matriz-confusao.png)
+
 *Distribuição de predições corretas e incorretas*
  
 ### Lucro por Threshold
 ![Threshold lucro](images/threshold-lucro_estimado.png)
+
 *Threshold de 0.15 maximiza lucro esperado em R$ 31.1M*
  
 ### Trade-off: Aprovação vs Inadimplência
 ![Inadimplência aprovação](images/inadimplencia-aprovacao.png)
+
 *Taxa de aprovação de clientes relacionada à taxa de inadimplência entre os mesmos*
  
 ---
