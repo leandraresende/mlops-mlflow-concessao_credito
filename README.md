@@ -89,15 +89,15 @@ Desenvolveu-se algoritmo de classificação que:
  
 | | Predito Adimplente | Predito Inadimplente | Total |
 |---|---|---|---|
-| **Realmente Adimplente** | 27.084 (TP) | 911 (FN) | 27.995 |
-| **Realmente Inadimplente** | 1.491 (FP) | 514 (TN) | 2.005 |
+| **Realmente Adimplente** | 27.084 (TN) | 911 (FP) | 27.995 |
+| **Realmente Inadimplente** | 1.491 (FN) | 514 (TP) | 2.005 |
 | **Total** | 28.575 | 1.425 | 30.000 |
  
 **Interpretação:**
-- TP (27.084): Corretamente identificou 90.28% dos adimplentes como baixo risco
-- FP (1.491): 4.97% de clientes aprovados mas que se tornaram inadimplentes
-- FN (911): 3.04% rejeitados mas que seriam adimplentes
-- TN (514): Corretamente identificou inadimplentes (1.71%)
+- TN (27.084): Corretamente identificou 90.28% dos adimplentes como baixo risco
+- FN (1.491): 4.97% de clientes aprovados mas que se tornaram inadimplentes
+- FP (911): 3.04% rejeitados mas que seriam adimplentes
+- TP (514): Corretamente identificou inadimplentes (1.71%)
 
 ---
  
@@ -123,7 +123,6 @@ UniFinance Bank é uma instituição financeira especializada em crédito para e
 ### Impacto Estimado
  
 Com decisões guiadas por este modelo:
-- Redução de inadimplência em ~50% comparado a baseline
 - Proteção de R$ 9.7M em risco esperado
 - Aprovação responsável de 28.575 clientes (95.25%)
 - Intervenção proativa em 1.491 clientes de alto risco
@@ -168,10 +167,10 @@ Com decisões guiadas por este modelo:
  
 | Threshold | Aprovação | Inadimplência | Lucro Estimado | Risco ||
 |---|---|---|---|---|---|
-| 0.10      | 87.5%     | 4.46%         | R$ 28.8M       | R$ 8.0M |
-| 0.15      | 95.25%    | 5.22%         | R$ 31.1M       | R$ 9.7M | ← ÓTIMO
-| 0.20      | 97.18%    | 5.66%         | R$ 31.0M       | R$ 9.5M |
-| 0.25      | 98.15%    | 5.94%         | R$ 30.8M       | R$ 10.7M |
+| 0.10      | 87.5%     | 4.46%         | R$ 28.83M       | R$ 8.05M |
+| 0.15      | 95.25%    | 5.22%         | R$ 31.13M       | R$ 9.69M | ← ÓTIMO
+| 0.20      | 97.18%    | 5.66%         | R$ 31.06M       | R$ 10.29M |
+| 0.25      | 98.15%    | 5.94%         | R$ 30.87M       | R$ 10.68M |
  
 **Threshold Recomendado: 0.15**
 - Balanceia aprovação e controle de risco
@@ -272,7 +271,6 @@ Este projeto demonstra comprometimento com **boas práticas de produção**:
  
 ### 1. Balanceamento é Crítico
 - Classe inadimplente é minoria (<10%)
-- Requer técnicas de balanceamento (SMOTE, class_weight)
 - Métrica ROC-AUC é mais informativa que Acurácia (Accuracy)
  
 ### 2. Custo de Erro não é Simétrico
