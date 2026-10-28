@@ -94,6 +94,7 @@ Desenvolveu-se algoritmo de classificação que:
 | **Total** | 28.575 | 1.425 | 30.000 |
  
 **Interpretação:**
+Em relação aos 30.000 clientes avaliados:
 - TN (27.084): Corretamente identificou 90.28% dos adimplentes como baixo risco
 - FN (1.491): 4.97% de clientes aprovados mas que se tornaram inadimplentes
 - FP (911): 3.04% rejeitados mas que seriam adimplentes
@@ -125,7 +126,7 @@ UniFinance Bank é uma instituição financeira especializada em crédito para e
 Com decisões guiadas por este modelo:
 - Proteção de R$ 9.7M em risco esperado
 - Aprovação responsável de 28.575 clientes (95.25%)
-- Intervenção proativa em 1.491 clientes de alto risco
+- Intervenção proativa em 1.425 clientes de alto risco (rejeitados)
  
 ---
  
@@ -274,8 +275,8 @@ Este projeto demonstra comprometimento com **boas práticas de produção**:
 - Métrica ROC-AUC é mais informativa que Acurácia (Accuracy)
  
 ### 2. Custo de Erro não é Simétrico
-- Erro tipo 1 (FP - aprovar inadimplente): perda de R$ 6.000 por cliente 
-- Erro tipo 2 (FN - rejeitar adimplente): perda de oportunidade de R$ 600
+- FN - aprovar inadimplente: perda de R$ 6.000 por cliente 
+- FP - rejeitar adimplente: perda de oportunidade de R$ 600
 - Calibrar modelo pensando em custo real
  
 ---
